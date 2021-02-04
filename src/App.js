@@ -4,6 +4,7 @@ import './App.css';
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.components"
 import Header from "./components/header/header.component"
+import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component"
 
 const HatsPage = () => (
   <div>
@@ -47,6 +48,7 @@ function App() {
         <Route path='/shop/womens' component={WomensPage} />
         <Route path='/shop/mens' component={MensPage} />
         <Route path='/shop' component={ShopPage} />
+        <Route path='/signin' component={SignInAndSignUpPage} />
      </Switch>
     </div>
   );
