@@ -1,0 +1,30 @@
+.error-image-overlay {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .error-image-container {
+    display: inline-block;
+    //width: 23%;
+    //padding-right: 15px;
+
+    img {
+        width: 40vh;
+        height: 40vh;
+        background-position: center;
+        background-size: cover;
+    }
+    //display: inline-block;
+    //background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+    //background-size: cover;
+    //background-position: center;
+  }
+  
+  .error-text {
+    font-size: 28px;
+    color: #2f8e89;
+  }
+}
